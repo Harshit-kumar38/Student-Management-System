@@ -147,7 +147,7 @@ while True:
     print('7. Export CSV')
     print('8. Exit')
 
-    choice = int(input('Choose (1/2/3/4/5/6): '))
+    choice = int(input('Choose (1/2/3/4/5/6/7/8): '))
 
     if choice == 1:
         print('Add New Student Selected')

@@ -22,5 +22,11 @@
         "branch": "cse",
         "student_id": "Jsc",
         "marks": 90
+    },
+    {
+        "name": "Harshit",
+        "branch": "CSAI",
+        "student_id": "SY081",
+        "marks": 100
     }
 ]

@@ -1,6 +1,5 @@
 # Student Management System
 
-# Student Management System
 
 A command-line based Student Management System built using Python. This project allows users to manage student records efficiently with features such as adding, viewing, searching, updating, and deleting students. The data is stored permanently using JSON, ensuring that records are preserved even after the program is closed.
 
