@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Harshit",
+        "branch": "CSAI",
+        "student_id": "123",
+        "marks": 90
+    },
+    {
+        "name": "Shyam",
+        "branch": "Ece",
+        "student_id": "12",
+        "marks": 40
+    },
+    {
+        "name": "Harshit",
+        "branch": "computer",
+        "student_id": "789",
+        "marks": 89
+    },
+    {
+        "name": "Aarti",
+        "branch": "cse",
+        "student_id": "Jsc",
+        "marks": 90
+    }
+]
