@@ -6,9 +6,10 @@ while True:
     print('2. View Students')
     print('3. Search Student')
     print('4. Update marks')
-    print('5. Exit')
+    print('5. Delete Student')
+    print('6. Exit')
 
-    choice = int(input('Choose (1/2/3/4): '))
+    choice = int(input('Choose (1/2/3/4/5/6): '))
 
     if choice == 1:
         print('Add New Student Selected')
@@ -23,6 +24,9 @@ while True:
         print('Update marks selected')
 
     elif choice == 5:
+        print('Delete the student')
+
+    elif choice == 6:
         print('Thank you')    
         break
     else:
@@ -89,6 +93,19 @@ while True:
                 break 
         if found == False:
             print('Student not found')
+
+    elif choice == 5:
+        id = input('Enter the Student_id: ')
+        found = False
+        for s in students:
+            if s['student_id']==id:
+                students.remove(s)
+                found = True
+                print('Student Deleted Successfully!')
+                break
+        if found == False:
+            print('Student not Found')        
+             
 
 
         
